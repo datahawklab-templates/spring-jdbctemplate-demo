@@ -1,5 +1,5 @@
 ```sql
-CREATE USER springbootdemo IDENTIFIED BY SZ1fr1t3RSRh 
+CREATE USER springbootdemo IDENTIFIED BY ***** 
 DEFAULT TABLESPACE "DATA"
 TEMPORARY TABLESPACE "TEMP";
 GRANT create session to springbootdemo;
@@ -315,7 +315,7 @@ public interface TutorialRepository {
 ```properties
 spring.datasource.url=jdbc:oracle:thin:@db202109302311_high?TNS_ADMIN=/home/swapanc/wallets/Wallet_DB202109302311
 spring.datasource.username=springbootdemo
-spring.datasource.password=SZ1fr1t3RSRh
+spring.datasource.password=*******
 spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
 spring.datasource.type=oracle.ucp.jdbc.PoolDataSource
 spring.datasource.oracleucp.connection-factory-class-name=oracle.jdbc.pool.OracleDataSource
